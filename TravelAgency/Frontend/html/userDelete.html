@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Delete</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="index.html" class="link">Home</a></td>
+          <td class="tablea"><a href="user.html" class="link">User</a></td>
+          <td class="tablea"><a href="tour.html" class="link">Tour</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="two-block">
+      <a class="button" href="userGet.html">Переглянути наявних користувачей</a>
+      <a class="button" href="userAdd.html">Створити користувача</a>
+      <a class="button" href="userUpdate.html">Змінити користувача</a>
+    </div>
+    <h1>Форма видалення користувача</h1>
+    <div class="user">
+      <form id="delete-user-form">
+        <label for="DELETE-idUser"> Id:</label>
+        <input
+          class="windowdelete"
+          required
+          id="DELETE-idUser"
+          name="idUser"
+        /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+
+    <script src="../services/user.js"></script>
+    <script src="../controller/userDeleteController.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour POST</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="index.html" class="link">Home</a></td>
+          <td class="tablea"><a href="user.html" class="link">User</a></td>
+          <td class="tablea"><a href="tour.html" class="link">Tour</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="two-block">
+      <a class="button" href="tourGet.html">Переглянути наявні подорожі</a>
+
+      <a class="button" href="tourUpdate.html">Змінити подорож</a>
+      <a class="button" href="tourDelete.html">Видалити подорож</a>
+    </div>
+    <h1>Форма додавання подорожі</h1>
+    <div class="tour">
+      <form id="add-tour-form">
+        <label for="POST-IdTour"> Id:</label>
+        <input class="window" required id="POST-IdTour" name="IdTour" /><br />
+        <label for="POST-DepartureDate"> DepartureDate:</label>
+        <input
+          class="window"
+          required
+          id="POST-DepartureDate"
+          name="DepartureDate"
+        /><br />
+        <label for="POST-ArrivalDate"> ArrivalDate:</label>
+        <input
+          class="window"
+          required
+          id="POST-ArrivalDate"
+          name="ArrivalDate"
+        /><br />
+        <label for="POST-AmountSeats"> AmountSeats:</label>
+        <input
+          class="window"
+          required
+          id="POST-AmountSeats"
+          name="AmountSeats"
+        /><br />
+        <label for="POST-NumberTypeTour"> NumberTypeTour:</label>
+        <input
+          class="window"
+          required
+          id="POST-NumberTypeTour"
+          name="NumberTypeTour"
+        /><br />
+        <label for="POST-Price"> Price:</label>
+        <input class="window" required id="POST-Price" name="Price" /><br />
+        <label for="POST-Description">Description:</label>
+        <input
+          class="window"
+          required
+          id="POST-Description"
+          name="Description"
+        /><br />
+        <label for="POST-NumberLocation"> NumberLocation:</label>
+        <input
+          class="window"
+          required
+          id="POST-NumberLocation"
+          name="NumberLocation"
+        /><br />
+        <label for="POST-Remark"> Remark:</label>
+        <input class="window" required id="POST-Remark" name="Remark" /><br />
+        <label for="POST-NumberTourOperator"> NumberTourOperator:</label>
+        <input
+          class="window"
+          required
+          id="POST-NumberTourOperator"
+          name="NumberTourOperator"
+        /><br />
+        <label for="POST-number_status"> number_status:</label>
+        <input
+          class="window"
+          required
+          id="POST-number_status"
+          name="number_status"
+        /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+    <script src="../services/tour.js"></script>
+    <script src="../controller/tourAddController.js"></script>
+  </body>
+</html>

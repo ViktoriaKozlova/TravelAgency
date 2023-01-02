@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Get</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="index.html" class="link">Home</a></td>
+          <td class="tablea"><a href="user.html" class="link">User</a></td>
+          <td class="tablea"><a href="tour.html" class="link">Tour</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="two-block">
+      <a class="button" href="userAdd.html">Створити користувача</a>
+      <a class="button" href="userUpdate.html">Змінити користувача</a>
+      <a class="button" href="userDelete.html">Видалити користувача</a>
+    </div>
+    <h1>Користувачі</h1>
+    <div class="user">
+      <table id="getUser">
+        <tr>
+          <td class="tab">IdUser</td>
+          <td class="tab">NumberRole</td>
+          <td class="tab">Fullname</td>
+          <td class="tab">City</td>
+          <td class="tab">Numbers</td>
+          <td class="tab">Login</td>
+          <td class="tab">Password</td>
+          <td class="tab">PassportNumber</td>
+        </tr>
+      </table>
+    </div>
+    <script src="../services/user.js"></script>
+    <script src="../controller/userGetController.js"></script>
+  </body>
+</html>

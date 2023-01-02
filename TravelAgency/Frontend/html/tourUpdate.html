@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour update</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="index.html" class="link">Home</a></td>
+          <td class="tablea"><a href="user.html" class="link">User</a></td>
+          <td class="tablea"><a href="tour.html" class="link">Tour</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="two-block">
+      <a class="button" href="tourGet.html">Переглянути наявні подорожі</a>
+      <a class="button" href="tourAdd.html">Створити нову подорож</a>
+      <a class="button" href="tourDelete.html">Видалити подорож</a>
+    </div>
+    <h1>Форма зміни інформації про подорож</h1>
+    <div class="tour">
+      <form id="update-tour-form">
+        <label for="PUT-IdTour"> Id:</label>
+        <input class="window" required id="PUT-IdTour" name="IdTour" /><br />
+        <label for="PUT-DepartureDate"> DepartureDate:</label>
+        <input
+          class="window"
+          required
+          id="PUT-DepartureDate"
+          name="DepartureDate"
+        /><br />
+        <label for="PUT-ArrivalDate"> ArrivalDate:</label>
+        <input
+          class="window"
+          required
+          id="PUT-ArrivalDate"
+          name="ArrivalDate"
+        /><br />
+        <label for="PUT-AmountSeats"> AmountSeats:</label>
+        <input
+          class="window"
+          required
+          id="PUT-AmountSeats"
+          name="AmountSeats"
+        /><br />
+        <label for="PUT-NumberTypeTour"> NumberTypeTour:</label>
+        <input
+          class="window"
+          required
+          id="PUT-NumberTypeTour"
+          name="NumberTypeTour"
+        /><br />
+        <label for="PUT-Price"> Price:</label>
+        <input class="window" required id="PUT-Price" name="Price" /><br />
+        <label for="PUT-Description"> description:</label>
+        <input
+          class="window"
+          required
+          id="PUT-Description"
+          name="Description"
+        /><br />
+        <label for="PUT-NumberLocation"> NumberLocation:</label>
+        <input
+          class="window"
+          required
+          id="PUT-NumberLocation"
+          name="NumberLocation"
+        /><br />
+        <label for="PUT-Remark"> Remark:</label>
+        <input class="window" required id="PUT-Remark" name="Remark" /><br />
+        <label for="PUT-NumberTourOperator"> NumberTourOperator:</label>
+        <input
+          class="window"
+          required
+          id="PUT-NumberTourOperator"
+          name="NumberTourOperator"
+        /><br />
+        <label for="PUT-number_status"> number_status:</label>
+        <input
+          class="window"
+          required
+          id="PUT-number_status"
+          name="number_status"
+        /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+    <script src="../services/tour.js"></script>
+    <script src="../controller/tourUpdateController.js"></script>
+  </body>
+</html>

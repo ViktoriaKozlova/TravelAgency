@@ -1,0 +1,185 @@
+a.button {
+  display: inline-block;
+  background: #f09393;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  border-radius: 10px;
+}
+.one-block {
+  margin: 20px;
+  text-align: center;
+}
+
+.link {
+  font-size: 50px;
+}
+
+.tablea {
+  width: 1000px;
+  height: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.two-block {
+  margin: 50px;
+  text-align: center;
+}
+.tab {
+  width: 1000px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #f09393;
+  text-align: center;
+}
+
+.tour-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.user-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.role-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.typeTour-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.status-element {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+h1 {
+  text-indent: 0;
+  margin-top: 2.17em;
+  margin: 1em 0 0.5em 0;
+  font-weight: normal;
+  position: relative;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+  line-height: 40px;
+  background: #f09393;
+
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  color: black;
+  border-radius: 0 10px 0 10px;
+  box-shadow: inset 0 0 5px #f09393;
+  font-family: "Muli", sans-serif;
+}
+
+.h1 {
+  text-indent: 0;
+  margin-top: 2.17em;
+  margin: 1em 0 0.5em 0;
+  font-weight: normal;
+  position: relative;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+  line-height: 40px;
+  background: #f09393;
+
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  color: black;
+  border-radius: 0 10px 0 10px;
+  box-shadow: inset 0 0 5px #f09393;
+  font-family: "Muli", sans-serif;
+}
+.tour {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.user {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.status {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.role {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.TypeTour {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  font-size: 25px;
+  color: rgb(3, 3, 3);
+  text-align: left;
+}
+
+.window {
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 110px;
+}
+.windowdelete {
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.but {
+  background-color: #f09393;
+
+  margin-left: 130px;
+
+  padding: 12px;
+
+  font-family: Tahoma;
+  font-size: 18px;
+
+  border-radius: 10px;
+}

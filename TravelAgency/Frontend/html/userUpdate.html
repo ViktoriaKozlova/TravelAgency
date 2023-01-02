@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Update</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="one-block">
+      <table>
+        <tr>
+          <td class="tablea"><a href="index.html" class="link">Home</a></td>
+          <td class="tablea"><a href="user.html" class="link">User</a></td>
+          <td class="tablea"><a href="tour.html" class="link">Tour</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="two-block">
+      <a class="button" href="userGet.html">Переглянути наявних користувачей</a>
+      <a class="button" href="userAdd.html">Створити користувача</a>
+      <a class="button" href="userDelete.html">Видалити користувача</a>
+    </div>
+    <h1>Форма зміни інформації про користувача</h1>
+    <div class="user">
+      <form id="update-user-form">
+        <label for="PUT-idUser"> Id:</label>
+        <input class="window" required id="PUT-idUser" name="idUser" /><br />
+        <label for="PUT-numberRole"> numberRole:</label>
+        <input
+          class="window"
+          required
+          id="PUT-numberRole"
+          name="numberRole"
+        /><br />
+        <label for="PUT-fullname"> fullname:</label>
+        <input
+          class="window"
+          required
+          id="PUT-fullname"
+          name="fullname"
+        /><br />
+        <label for="PUT-city"> city:</label>
+        <input class="window" required id="PUT-city" name="city" /><br />
+        <label for="POST-numbers"> numbers:</label>
+        <input class="window" required id="PUT-numbers" name="numbers" /><br />
+        <label for="PUT-login"> login:</label>
+        <input class="window" required id="PUT-login" name="login" /><br />
+        <label for="PUT-password"> password:</label>
+        <input
+          class="window"
+          required
+          id="PUT-password"
+          name="password"
+        /><br />
+        <label for="PUT-passportNumber"> passportNumber:</label>
+        <input
+          class="window"
+          required
+          id="PUT-passportNumber"
+          name="passportNumber"
+        /><br />
+        <input class="but" type="submit" value="Save" />
+      </form>
+    </div>
+    <script src="../services/user.js"></script>
+    <script src="../controller/userUpdateController.js"></script>
+  </body>
+</html>
